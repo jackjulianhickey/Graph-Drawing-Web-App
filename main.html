@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title>Bar Graph</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<script>
+
+</script>
+</head>
+
+<body onLoad="init()">
+	<h2>Bar Graph</h2>
+
+<div id="canvasdiv1"style="position: absolute;">
+	<canvas id="chart"></canvas>
+</div>
+
+<div id="canvasdiv2" style="position: absolute">
+	<canvas id = "sketcher"> </canvas>
+</div>
+
+<div id="canvasdiv3">
+	<canvas id = "canvas3" width="650" height="400"/>
+</div>
+<div id="picker" >
+	<select id = "thickness" >
+		<option value = 1 selected>Thin</option>
+		<option value = 3>Medium</option>
+		<option value = 5>Thick</option>
+	</select>
+
+	<select id = "pencolour" >
+		<option selected>Black</option>
+		<option>Green</option>
+		<option>Brown</option>
+		<option>Red</option>
+		<option>White</option>
+		<option>Yellow</option>
+	</select>
+
+<button onclick="screenshot()">Take Snapshot</button>
+
+
+	<input type = "button" value = "Clear" id = "clear" >
+
+</div>
+
+<div id="imageCar" style="  z-index: 4 ">
+</div>
+
+</body>
+</html>

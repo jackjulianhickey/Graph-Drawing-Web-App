@@ -1,0 +1,50 @@
+#canvasdiv1{
+
+  box-shadow:5px 5px 5px #ccc;
+  border:5px solid #eee;
+  margin-bottom:10px;
+  position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1;
+}
+
+
+
+#canvasdiv2{
+  position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 2;
+     cursor: crosshair;
+
+}
+
+
+#canvasdiv3{
+  position: relative;
+     top: 0;
+     left: 0;
+     z-index: 0;
+}
+#picker{
+
+  position: absolute;
+  top: 57%;
+  right: 56%;
+
+  z-index: 3;
+}
+#imageCar {
+  margin: auto;
+  box-shadow:5px 5px 5px #ccc;
+  border:5px solid #eee;
+  margin-bottom:10px;
+  overflow-y: scroll;
+  overflow-x:hidden;
+  top: 90%;
+  set min-width: : 60%;
+  height: 300px;
+
+
+}
